@@ -7,9 +7,9 @@
 //
 
 #import "CaptureViewController.h"
-#import "CaptureRecorder.h"
 #import "CaptureMetadataPreview.h"
 #import "VideoFileOutput.h"
+#import "CapturePlayerViewController.h"
 
 @interface CaptureViewController () <CAAnimationDelegate,VideoFileOutputDelegate,CaptureSessionDelegate>
 
@@ -52,7 +52,9 @@
         case UIGestureRecognizerStateEnded: {
             
             [_videoOutput captureStillImage:^(UIImage *image) {
-                
+                CapturePlayerViewController *playerView = [[CapturePlayerViewController alloc]init];
+                playerView.cover = image;
+                [self presentViewController:playerView animated:NO completion:NULL];
             }];
         }
         default:
@@ -154,6 +156,11 @@
 - (void)outputFileCommpressDidFinish {
     NSLog(@"压缩完成");
     _button.userInteractionEnabled = YES;
+    
+    CapturePlayerViewController *playerView = [self.storyboard instantiateViewControllerWithIdentifier:@"CapturePlayerViewController"];
+    playerView.cover = _videoOutput.previewImage;
+    playerView.asset = _videoOutput.originVideoURL;
+    [self presentViewController:playerView animated:NO completion:NULL];
 }
 
 - (void)removeAnimation {

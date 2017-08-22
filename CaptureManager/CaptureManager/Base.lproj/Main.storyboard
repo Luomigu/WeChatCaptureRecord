@@ -112,7 +112,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vx6-gr-E7t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="781.60000000000002" y="49.925037481259373"/>
+            <point key="canvasLocation" x="961" y="139"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="faU-3y-FBR">
+            <objects>
+                <avPlayerViewController storyboardIdentifier="CapturePlayerViewController" videoGravity="AVLayerVideoGravityResizeAspect" id="eDV-0a-Ag0" customClass="CapturePlayerViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P8H-gM-8vE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1761" y="139"/>
         </scene>
     </scenes>
 </document>

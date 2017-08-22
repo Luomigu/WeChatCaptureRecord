@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-@class CaptureRecorder;
+#import "CaptureRecorder.h"
+
 @import AVFoundation;
 @import UIKit;
 

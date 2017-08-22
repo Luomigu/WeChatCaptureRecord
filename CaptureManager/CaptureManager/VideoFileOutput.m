@@ -7,7 +7,6 @@
 //
 
 #import "VideoFileOutput.h"
-#import "CaptureRecorder.h"
 
 @interface VideoFileOutput ()<AVCaptureAudioDataOutputSampleBufferDelegate,AVCaptureVideoDataOutputSampleBufferDelegate>
 {

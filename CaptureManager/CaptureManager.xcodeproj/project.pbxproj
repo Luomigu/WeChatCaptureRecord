@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F2919601F4C077E00E0EB53 /* CapturePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F29195F1F4C077E00E0EB53 /* CapturePlayerViewController.m */; };
+		4F2919631F4C07EB00E0EB53 /* CapturePlaybackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2919621F4C07EB00E0EB53 /* CapturePlaybackView.m */; };
+		4F2919661F4C089A00E0EB53 /* CaptureMetadataPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2919651F4C089A00E0EB53 /* CaptureMetadataPreview.m */; };
 		4F4D2E9C1F46B70C004B7BFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D2E9B1F46B70C004B7BFF /* main.m */; };
 		4F4D2E9F1F46B70C004B7BFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D2E9E1F46B70C004B7BFF /* AppDelegate.m */; };
 		4F4D2EA21F46B70C004B7BFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D2EA11F46B70C004B7BFF /* ViewController.m */; };
@@ -16,13 +19,18 @@
 		4F4D2EB81F46B725004B7BFF /* VideoFileOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D2EB41F46B725004B7BFF /* VideoFileOutput.m */; };
 		4F4D2EB91F46B725004B7BFF /* CaptureRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D2EB61F46B725004B7BFF /* CaptureRecorder.m */; };
 		4F4D2EBC1F46D572004B7BFF /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D2EBB1F46D572004B7BFF /* CaptureViewController.m */; };
-		4F4D2EC21F46E04A004B7BFF /* CaptureMetadataPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D2EC11F46E04A004B7BFF /* CaptureMetadataPreview.m */; };
 		984D2EECBA11721BFAAF19A8 /* Pods_CaptureManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159255FA50E7D8C0E925505D /* Pods_CaptureManager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02C4C28000432FB29E86FFAD /* Pods-CaptureManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaptureManager/Pods-CaptureManager.release.xcconfig"; sourceTree = "<group>"; };
 		159255FA50E7D8C0E925505D /* Pods_CaptureManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F29195E1F4C077E00E0EB53 /* CapturePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapturePlayerViewController.h; sourceTree = "<group>"; };
+		4F29195F1F4C077E00E0EB53 /* CapturePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapturePlayerViewController.m; sourceTree = "<group>"; };
+		4F2919611F4C07EB00E0EB53 /* CapturePlaybackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapturePlaybackView.h; sourceTree = "<group>"; };
+		4F2919621F4C07EB00E0EB53 /* CapturePlaybackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapturePlaybackView.m; sourceTree = "<group>"; };
+		4F2919641F4C089A00E0EB53 /* CaptureMetadataPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureMetadataPreview.h; sourceTree = "<group>"; };
+		4F2919651F4C089A00E0EB53 /* CaptureMetadataPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureMetadataPreview.m; sourceTree = "<group>"; };
 		4F4D2E971F46B70C004B7BFF /* CaptureManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4D2E9B1F46B70C004B7BFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F4D2E9D1F46B70C004B7BFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,8 +47,6 @@
 		4F4D2EB61F46B725004B7BFF /* CaptureRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureRecorder.m; sourceTree = "<group>"; };
 		4F4D2EBA1F46D572004B7BFF /* CaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
 		4F4D2EBB1F46D572004B7BFF /* CaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
-		4F4D2EC01F46E04A004B7BFF /* CaptureMetadataPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureMetadataPreview.h; sourceTree = "<group>"; };
-		4F4D2EC11F46E04A004B7BFF /* CaptureMetadataPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureMetadataPreview.m; sourceTree = "<group>"; };
 		E894DE77721037092F143340 /* Pods-CaptureManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaptureManager/Pods-CaptureManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,8 +73,6 @@
 		4F4D2E8E1F46B70C004B7BFF = {
 			isa = PBXGroup;
 			children = (
-				4F4D2EC01F46E04A004B7BFF /* CaptureMetadataPreview.h */,
-				4F4D2EC11F46E04A004B7BFF /* CaptureMetadataPreview.m */,
 				4F4D2E991F46B70C004B7BFF /* CaptureManager */,
 				4F4D2E981F46B70C004B7BFF /* Products */,
 				DEF39A28A2E840EDE265B25B /* Pods */,
@@ -97,6 +101,12 @@
 				4F4D2EB61F46B725004B7BFF /* CaptureRecorder.m */,
 				4F4D2EBA1F46D572004B7BFF /* CaptureViewController.h */,
 				4F4D2EBB1F46D572004B7BFF /* CaptureViewController.m */,
+				4F29195E1F4C077E00E0EB53 /* CapturePlayerViewController.h */,
+				4F29195F1F4C077E00E0EB53 /* CapturePlayerViewController.m */,
+				4F2919641F4C089A00E0EB53 /* CaptureMetadataPreview.h */,
+				4F2919651F4C089A00E0EB53 /* CaptureMetadataPreview.m */,
+				4F2919611F4C07EB00E0EB53 /* CapturePlaybackView.h */,
+				4F2919621F4C07EB00E0EB53 /* CapturePlaybackView.m */,
 				4F4D2EA31F46B70C004B7BFF /* Main.storyboard */,
 				4F4D2EA61F46B70C004B7BFF /* Assets.xcassets */,
 				4F4D2EA81F46B70C004B7BFF /* LaunchScreen.storyboard */,
@@ -246,12 +256,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F4D2EC21F46E04A004B7BFF /* CaptureMetadataPreview.m in Sources */,
+				4F2919601F4C077E00E0EB53 /* CapturePlayerViewController.m in Sources */,
 				4F4D2EA21F46B70C004B7BFF /* ViewController.m in Sources */,
 				4F4D2E9F1F46B70C004B7BFF /* AppDelegate.m in Sources */,
 				4F4D2EB91F46B725004B7BFF /* CaptureRecorder.m in Sources */,
+				4F2919631F4C07EB00E0EB53 /* CapturePlaybackView.m in Sources */,
 				4F4D2EB81F46B725004B7BFF /* VideoFileOutput.m in Sources */,
 				4F4D2E9C1F46B70C004B7BFF /* main.m in Sources */,
+				4F2919661F4C089A00E0EB53 /* CaptureMetadataPreview.m in Sources */,
 				4F4D2EBC1F46D572004B7BFF /* CaptureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
