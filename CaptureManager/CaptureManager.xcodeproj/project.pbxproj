@@ -70,6 +70,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4F3F17371F53FC4900761982 /* CaptureRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				4F4D2EB31F46B725004B7BFF /* VideoFileOutput.h */,
+				4F4D2EB41F46B725004B7BFF /* VideoFileOutput.m */,
+				4F4D2EB51F46B725004B7BFF /* CaptureRecorder.h */,
+				4F4D2EB61F46B725004B7BFF /* CaptureRecorder.m */,
+			);
+			name = CaptureRecorder;
+			sourceTree = "<group>";
+		};
 		4F4D2E8E1F46B70C004B7BFF = {
 			isa = PBXGroup;
 			children = (
@@ -91,14 +102,11 @@
 		4F4D2E991F46B70C004B7BFF /* CaptureManager */ = {
 			isa = PBXGroup;
 			children = (
+				4F3F17371F53FC4900761982 /* CaptureRecorder */,
 				4F4D2E9D1F46B70C004B7BFF /* AppDelegate.h */,
 				4F4D2E9E1F46B70C004B7BFF /* AppDelegate.m */,
 				4F4D2EA01F46B70C004B7BFF /* ViewController.h */,
 				4F4D2EA11F46B70C004B7BFF /* ViewController.m */,
-				4F4D2EB31F46B725004B7BFF /* VideoFileOutput.h */,
-				4F4D2EB41F46B725004B7BFF /* VideoFileOutput.m */,
-				4F4D2EB51F46B725004B7BFF /* CaptureRecorder.h */,
-				4F4D2EB61F46B725004B7BFF /* CaptureRecorder.m */,
 				4F4D2EBA1F46D572004B7BFF /* CaptureViewController.h */,
 				4F4D2EBB1F46D572004B7BFF /* CaptureViewController.m */,
 				4F29195E1F4C077E00E0EB53 /* CapturePlayerViewController.h */,

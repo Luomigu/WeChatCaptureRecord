@@ -41,8 +41,6 @@
 // 封面图
 @property (strong,nonatomic,readonly) UIImage *previewImage;
 
-@property (assign,nonatomic) CGFloat maximumSecond;
-
 @property (atomic,readonly,getter=isWriting) BOOL writing;
 
 - (instancetype)initWithRecorder:(CaptureRecorder *)recorder;

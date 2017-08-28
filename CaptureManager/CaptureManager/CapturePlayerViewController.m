@@ -43,7 +43,8 @@
     _back = [[UIButton alloc]init];
     [_back addTarget:self action:@selector(action_dismiss) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_back];
-    _back.backgroundColor = [UIColor redColor];
+    [_back setTitle:@"◼︎" forState:UIControlStateNormal];
+    _back.titleLabel.font = [UIFont boldSystemFontOfSize:48];
     
     [_back mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self.view).offset(40);
@@ -54,23 +55,15 @@
     _commit = [[UIButton alloc]init];
     [_commit addTarget:self action:@selector(action_clickCommit) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_commit];
+    [_commit setTitle:@"✔︎" forState:UIControlStateNormal];
+    _commit.titleLabel.font = [UIFont boldSystemFontOfSize:48];
 
     [_commit mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.equalTo(_back.mas_bottom);
         make.width.height.mas_equalTo(50);
         make.right.equalTo(self.view).offset(-40);
     }];
-    
-    _commit.backgroundColor = [UIColor redColor];
-}
 
-- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
-    
-    NSInteger status =  [change[NSKeyValueChangeNewKey] integerValue];
-    
-    if (status == AVPlayerStatusReadyToPlay) {
-        _placeHolder.hidden = YES;
-    }
 }
 
 -(void)playbackFinished:(NSNotification *)notification {
